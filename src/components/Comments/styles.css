@@ -1,8 +1,9 @@
 #ct-comments-section {
+  padding: 25px 20px;
   background-color: var(--ct-color-bg-terciary);
 }
 
-.comments-container {
+.ct-comments-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -12,15 +13,18 @@
   color: var(--ct-color-font-secondary);
   text-align: center;
   font-size: 20px;
-  padding: 25px;
+  margin-bottom: 25px;
 }
 
-.card-comment {
-  background-color: var(--ct-color-bg-primary);
+.ct-card-comment {
   border-radius: 12px;
   border: 1px solid #3c9af0;
   padding: 25px 20px;
-  margin: 0 20px 25px;
+  margin-top: 25px;
+  background-color: var(--ct-color-bg-primary);
+}
+
+.ct-card-comment p {
   font-size: 16px;
   color: var(--ct-color-font-terciary);
 }
