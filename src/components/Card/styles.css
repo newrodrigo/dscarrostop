@@ -1,19 +1,25 @@
-.ct-card {
+.ct-cards-container {
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
+}
+
+.ct-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
   border: 1px solid #3c9af0;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
-.ct-card img {
+.ct-cards img {
   width: 100%;
   max-width: 391px;
   padding: 10px;
 }
 
-.ct-card p {
+.ct-cards p {
   font-size: 16px;
   font-weight: 700;
   padding: 10px 0;
@@ -21,7 +27,7 @@
 }
 
 @media (min-width: 1200px) {
-  .ct-card p {
+  .ct-cards p {
     font-size: 20px;
   }
 }
