@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Projeto React de Avaliação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém um projeto React desenvolvido para atender aos critérios de correção estabelecidos, com o objetivo de avaliar competências específicas. O projeto inclui componentes essenciais para representar o layout de uma aplicação.
 
-Currently, two official plugins are available:
+## Critérios de Correção
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Mínimo para Aprovação: 4 de 4
 
-## Expanding the ESLint configuration
+1. **Componente de Cabeçalho**
+   - Desenvolvido um componente React responsável por representar o cabeçalho da aplicação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. **Componente de Card de Carro**
+   - Implementado um componente React para representar o card de informações sobre um carro.
 
-- Configure the top-level `parserOptions` property like this:
+3. **Componente de Card de Comentário**
+   - Criado um componente React para exibir o card contendo comentários relacionados à aplicação.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+4. **Componente de Rodapé**
+   - Desenvolvido um componente React para representar o rodapé da aplicação.
+
+### Competências Avaliadas
+
+1. **Criação de Projeto React**
+   - O projeto está estruturado e configurado corretamente para o desenvolvimento React.
+
+2. **Criação de Componentes React**
+   - Componentes foram criados de acordo com as especificações, seguindo as boas práticas de desenvolvimento.
+
+3. **Layout HTML e CSS**
+   - O layout da aplicação atende aos requisitos, demonstrando habilidades sólidas em HTML e CSS.
+
+## Como Executar o Projeto
+
+Certifique-se de ter o Yarn instalado na sua máquina. Em seguida, siga os passos abaixo:
+
+```bash
+# Clone o repositório
+git clone git@github.com:newrodrigo/dscarrostop.git
+
+# Navegue até o diretório do projeto
+cd dscarrostop
+
+# Instale as dependências
+yarn
+
+# Inicie o projeto
+yarn dev
 ```
+Isso iniciará a aplicação Vite. Abra seu navegador e acesse http://localhost:5173 para visualizar a aplicação.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Autor
+Rodrigo Oliveira Cerqueira
+
