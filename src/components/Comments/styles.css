@@ -1,0 +1,32 @@
+#ct-comments-section {
+  background-color: var(--ct-color-bg-terciary);
+}
+
+.comments-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#ct-comments-section h2 {
+  color: var(--ct-color-font-secondary);
+  text-align: center;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.card-comment {
+  background-color: var(--ct-color-bg-primary);
+  border-radius: 12px;
+  border: 1px solid #3c9af0;
+  padding: 25px 20px;
+  margin: 0 20px 25px;
+  font-size: 16px;
+  color: var(--ct-color-font-terciary);
+}
+
+@media (min-width: 1200px) {
+  #ct-comments-section h2 {
+    font-size: 32px;
+  }
+}

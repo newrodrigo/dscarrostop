@@ -2,9 +2,11 @@
 :root {
   --ct-color-bg-primary: #fff;
   --ct-color-bg-secondary: #3c9af0;
+  --ct-color-bg-terciary:#C8C8C8;
 
   --ct-color-font-primary: #fff;
   --ct-color-font-secondary: #5e5e5e;
+  --ct-color-font-terciary:#3c9af0;
 }
 
 * {
